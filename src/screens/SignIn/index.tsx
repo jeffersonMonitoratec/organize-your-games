@@ -3,8 +3,7 @@ import React from 'react';
 import {
   Image,
   Text,
-  View,
-  StatusBar
+  View
 } from 'react-native';
 
 import IllustrationImg from '../../assets/illustration.png'
@@ -18,11 +17,7 @@ export function SignIn() {
   const title = 'Entrar com Discord'
   return (
     <View style={styles.container}>
-      <StatusBar
-        barStyle="light-content"
-        backgroundColor="transparent"
-        translucent
-      />
+
       <Image
         source={IllustrationImg}
         style={styles.image}
@@ -31,9 +26,9 @@ export function SignIn() {
 
       <View style={styles.content}>
         <Text style={styles.title}>
-          Organize {'\n'}
-          suas jogatinas {'\n'}
-          facilmente
+          Conecte-se {'\n'}
+          e organize sua {'\n'}
+          jogatina
         </Text>
 
         <Text style={styles.subtitle}>
